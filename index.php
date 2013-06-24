@@ -51,9 +51,9 @@ var modalControl = function ($scope) {
 <body>
 <h1>Judge Dice, All Things Internet</h1>
 
+<p>Here is a list of important, recent projects. <a href='ma&#105;lt&#111;&#58;ju%&#54;4&#103;e%64%69ce&#37;4&#48;g%&#54;&#68;&#37;61i&#37;&#54;C&#46;co%6&#68;'>contact me</a> if interested.</p>
+
 <div id="container">
-
-
 <div id="left_column">
 
 <h3>American Family Insurance</h3>

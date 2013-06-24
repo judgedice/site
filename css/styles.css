@@ -5,6 +5,20 @@ body
 {
 	
 	font-family: PT serif;
+	margin-left: 10px;
+	background: #f4f4f4 url('../images/bg.jpg') no-repeat left top;
+}
+
+
+/* Webkit */
+::selection {
+    background: #972F2C;
+    color: #FFF;
+}
+/* Gecko/Mozilla */
+::-moz-selection {
+    background: #972F2C;
+    color: #FFF;
 }
 
 .modal {
