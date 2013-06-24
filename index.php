@@ -3,50 +3,163 @@
 // Nothing here.
 ?>
 
-<html>
+<html ng-app="judgedice" id="top">
 
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css" />
+
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700italic' rel='stylesheet' type='text/css' />
 <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-<script src="js/vid-lightbox.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
+<script src="js/ui-bootstrap-0.3.0.min.js" type="text/javascript"></script>
+<script src="js/ui-bootstrap-tpls-0.3.0.min.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+
 
 <script>
-$(document).ready(function () {
-  $(".blightbox").blightbox();
-  $(".blightbox-autoplay").blightbox({autoplay: true});
-});
+
+var modalControl = function ($scope) {
+
+  $scope.open = function () {
+    $scope.shouldBeOpen = true;
+  };
+
+  $scope.close = function () {
+    $scope.shouldBeOpen = false;
+  };
+
+  $scope.items = ['item1', 'item2'];
+
+  $scope.opts = {
+    backdropFade: true,
+    dialogFade:true
+  };
+
+};
+
 </script>
 
-<title>Judge Here</title>
+
+<title>Judge Dice, Creative Technical Director, Solver</title>
 </head>
 
 <body>
-
+<h1>Judge Dice, All Things Internet</h1>
 
 <div id="container">
 
+
 <div id="left_column">
+
+<h3>American Family Insurance</h3>
+<h5>AIR/Starling Touchscreen Application</h5>
+<div ng-controller="modalControl">
+    <button class="btn" ng-click="open()">See the Video</button>
+    <div modal="shouldBeOpen" close="close()" options="opts">
+        <div class="modal-header">
+            <h4>American Family Touchscreen Application</h4>
+        </div>
+        <div class="modal-body">
+            <iframe src="http://player.vimeo.com/video/68639813" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-warning cancel" ng-click="close()">CLOSE</button>
+        </div>
+    </div>
 </div>
+
+
+<h3>Electrolux AG</h3>
+<h5>User Experience Pilot</h5>
+<div ng-controller="modalControl">
+    <button class="btn" ng-click="open()">See the Video</button>
+    <div modal="shouldBeOpen" close="close()" options="opts">
+        <div class="modal-header">
+            <h4>Electrolux User Experience</h4>
+        </div>
+        <div class="modal-body">
+            <iframe src="http://player.vimeo.com/video/68874366" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-warning cancel" ng-click="close()">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<h3>Pentair, Ltd.</h3>
+<h5>Global Corporate Website Merger</h5>
+<div ng-controller="modalControl">
+    <button class="btn" ng-click="open()">See the Video</button>
+    <div modal="shouldBeOpen" close="close()" options="opts">
+        <div class="modal-header">
+            <h4>Pentair - Global Corporation</h4>
+        </div>
+        <div class="modal-body">
+            <iframe src="http://player.vimeo.com/video/68639818" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-warning cancel" ng-click="close()">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<h3>Coinstar, LLC</h3>
+<h5>Luxe Photo Booth Application</h5>
+<div ng-controller="modalControl">
+    <button class="btn" ng-click="open()">See the Video</button>
+    <div modal="shouldBeOpen" close="close()" options="opts">
+        <div class="modal-header">
+            <h4>Star Studio Development</h4>
+        </div>
+        <div class="modal-body">
+            <iframe src="http://player.vimeo.com/video/68639815" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-warning cancel" ng-click="close()">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+
+<h3>Material Group Show Reel</h3>
+<h5>Creative Leadership from MG</h5>
+
+
+
+
+</div><!-- end left column -->
 
 <div id="right_column">
-</div>
+
+
+
+
+
+
+
+
+
+
+</div><!-- end right column -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
-
-<img src="img/pentair.jpg" class="blightbox" data-vimeo="68639818"/><br>Pentair<br>
-
-<img src="img/amfam.jpg" class="blightbox" data-vimeo="68639813"/><br>American Family<br>
-
-<img src="img/studio.jpg" class="blightbox" data-vimeo="68639815"/><br>Star Studio<br>
-
-<img src="img/elux.jpg" class="blightbox" data-vimeo="68874366"/><br>Elux<br>
-
-
 
 </body>
 

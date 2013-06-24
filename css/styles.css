@@ -1,0 +1,38 @@
+/* @override 
+	http://localhost/css/styles.css */
+
+body 
+{
+	
+	font-family: PT serif;
+}
+
+.modal {
+	display: block;
+	width: 700px !important;
+}
+
+h3 {
+
+	font-family: ayumi_lightregular;
+	
+	
+}
+
+h5 {
+	font-weight: normal;
+}
+
+#left_column
+{
+/*	border: 1px solid #FF0;*/
+	float: left;
+	margin: 15px 0;
+}
+
+#right_column
+{
+/*	border: 1px solid #333;*/
+	float: left;
+	margin: 15px 15px;
+}
