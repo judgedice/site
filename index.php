@@ -38,7 +38,13 @@ $(document).ready(function () {
 
 </div>
 
-<img src="http://spiritualtazer.com/images/beeple1.png" class="blightbox" data-vimeo="68639818"/><br>Pentair<br>
+<img src="img/pentair.jpg" class="blightbox" data-vimeo="68639818"/><br>Pentair<br>
+
+<img src="img/amfam.jpg" class="blightbox" data-vimeo="68639813"/><br>American Family<br>
+
+<img src="img/studio.jpg" class="blightbox" data-vimeo="68639815"/><br>Star Studio<br>
+
+<img src="img/elux.jpg" class="blightbox" data-vimeo="68874366"/><br>Elux<br>
 
 <!--
 <iframe src="http://player.vimeo.com/video/68639813" width="1024" height="768" frameborder="1" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
