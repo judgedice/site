@@ -46,14 +46,6 @@ $(document).ready(function () {
 
 <img src="img/elux.jpg" class="blightbox" data-vimeo="68874366"/><br>Elux<br>
 
-<!--
-<iframe src="http://player.vimeo.com/video/68639813" width="1024" height="768" frameborder="1" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-
-<iframe src="http://player.vimeo.com/video/68639815" width="1024" height="768" frameborder="2" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-
-<iframe src="http://player.vimeo.com/video/68639814" width="1024" height="768" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>-->
 
 
 </body>
