@@ -5,24 +5,49 @@
 
 <html>
 
-
 <head>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700italic' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script src="js/vid-lightbox.js"></script>
+
+<script>
+$(document).ready(function () {
+  $(".blightbox").blightbox();
+  $(".blightbox-autoplay").blightbox({autoplay: true});
+});
+</script>
+
 <title>Judge Here</title>
 </head>
 
 <body>
-<h2>Some Videos</h2>
-
-<iframe src="http://player.vimeo.com/video/68639818" width="1024" height="768" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
+<div id="container">
+
+<div id="left_column">
+</div>
+
+<div id="right_column">
+</div>
+
+</div>
+
+<img src="http://spiritualtazer.com/images/beeple1.png" class="blightbox" data-vimeo="68639818"/><br>Pentair<br>
+
+<!--
 <iframe src="http://player.vimeo.com/video/68639813" width="1024" height="768" frameborder="1" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
 <iframe src="http://player.vimeo.com/video/68639815" width="1024" height="768" frameborder="2" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
-<iframe src="http://player.vimeo.com/video/68639814" width="1024" height="768" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/68639814" width="1024" height="768" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>-->
 
 
 </body>
