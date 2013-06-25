@@ -54,3 +54,16 @@ h5 {
 	float: left;
 	margin: 15px 15px;
 }
+
+#left_column h3 {
+	margin: 15px 0 0 0;
+}
+
+#left_column h5 {
+	margin: 0;
+}
+
+#left_column h5 + div {
+	margin: 5px 0 35px 0;
+}
+
