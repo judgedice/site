@@ -23,11 +23,15 @@ body
 
 .modal {
 	display: block;
-	width: 700px !important;
+	width: 720px !important;	
+}
+
+.modal-body {
+	height: 600px !important;
 }
 
 h3 {
-
+	text-transform: uppercase;
 	font-family: ayumi_lightregular;
 	
 	

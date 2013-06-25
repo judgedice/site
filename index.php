@@ -65,7 +65,7 @@ var modalControl = function ($scope) {
             <h4>American Family Touchscreen Application</h4>
         </div>
         <div class="modal-body">
-            <iframe src="http://player.vimeo.com/video/68639813" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <iframe src="http://player.vimeo.com/video/68639813" width="680" height="420" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
         <div class="modal-footer">
             <button class="btn btn-warning cancel" ng-click="close()">CLOSE</button>
