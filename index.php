@@ -83,7 +83,7 @@ var modalControl = function ($scope) {
             <h4>Electrolux User Experience</h4>
         </div>
         <div class="modal-body">
-            <iframe src="http://player.vimeo.com/video/68874366" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <iframe src="http://player.vimeo.com/video/68874366" width="680" height="420" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
         <div class="modal-footer">
             <button class="btn btn-warning cancel" ng-click="close()">CLOSE</button>
@@ -100,7 +100,7 @@ var modalControl = function ($scope) {
             <h4>Pentair - Global Corporation</h4>
         </div>
         <div class="modal-body">
-            <iframe src="http://player.vimeo.com/video/68639818" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <iframe src="http://player.vimeo.com/video/68639818" width="680" height="420" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
         <div class="modal-footer">
             <button class="btn btn-warning cancel" ng-click="close()">CLOSE</button>
@@ -117,7 +117,7 @@ var modalControl = function ($scope) {
             <h4>Star Studio Development</h4>
         </div>
         <div class="modal-body">
-            <iframe src="http://player.vimeo.com/video/68639815" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <iframe src="http://player.vimeo.com/video/68639815" width="680" height="420" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
         <div class="modal-footer">
             <button class="btn btn-warning cancel" ng-click="close()">CLOSE</button>
