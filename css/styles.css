@@ -30,6 +30,12 @@ body
 	height: 600px !important;
 }
 
+h2 {
+	font-family: ayumi_lightregular;
+	text-transform: uppercase;
+
+}
+
 h3 {
 	text-transform: uppercase;
 	font-family: ayumi_lightregular;
@@ -41,18 +47,9 @@ h5 {
 	font-weight: normal;
 }
 
-#left_column
-{
-/*	border: 1px solid #FF0;*/
-	float: left;
-	margin: 15px 0;
-}
-
-#right_column
-{
-/*	border: 1px solid #333;*/
-	float: left;
-	margin: 15px 15px;
+#container {
+	margin: 25px 0 0 35px;
+	width: 780px;
 }
 
 #left_column h3 {
@@ -67,8 +64,32 @@ h5 {
 	margin: 5px 0 35px 0;
 }
 
+.project {
+	margin: 55px 0 0 0;
+	width: 450px;
+	border: solid 1px #666;
+	padding: 15px;
+	background-color: #CCC;
+}
+
+.project h4 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-family: "ayumi_lightregular";
+}
+
+.project h5 {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.1em;
+
+}
+
 .filter_list img {
 	width: 50px;
 	height: 50px;
 }
 
+.tags + div {
+	margin: 15px 0 0 0;
+}
