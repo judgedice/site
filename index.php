@@ -51,11 +51,9 @@ var modalControl = function ($scope) {
 <body>
 <h1>Judge Dice</h1>
 
-<p>Here is a list of important, recent projects. <a href='ma&#105;lt&#111;&#58;ju%&#54;4&#103;e%64%69ce&#37;4&#48;g%&#54;&#68;&#37;61i&#37;&#54;C&#46;co%6&#68;'>contact me</a> if interested.</p>
-
 <div id="container">
-<div id="left_column">
 
+<!-- 
 <h3>American Family Insurance</h3>
 <h5>AIR/Starling Touchscreen Application</h5>
 <div ng-controller="modalControl">
@@ -127,26 +125,9 @@ var modalControl = function ($scope) {
 
 
 <h3>Material Group Show Reel</h3>
-<h5>Creative Leadership from MG</h5>
+<h5>Creative Leadership from MG</h5> -->
 
-
-
-
-</div><!-- end left column -->
-
-<div id="right_column">
-
-
-
-
-
-
-
-
-
-
-</div><!-- end right column -->
-
+<div ng-view></div>
 
 
 

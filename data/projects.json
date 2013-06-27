@@ -1,0 +1,54 @@
+[
+	{
+		"title":"American Family Insurance",
+		"tagline":"Touchscreen Application",
+		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
+		"vimeoid":"68639813",
+		"tags":[ "flash", "air", "leader", "interactive" ],
+		"age":4
+	},
+	{
+		"title":"Elecrolux AG",
+		"tagline":"Needs Matcher Concept",
+		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
+		"vimeoid":"68874366",
+		"tags":[ "enterprise", "interactive", "leader", "concept" ],
+		"age":4
+	},
+	{
+		"title":"Pentair Ltd.",
+		"tagline":"Global Corporate Website Merger",
+		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
+		"vimeoid":"68639818",
+		"tags":[ "enterprise", "leader" ],
+		"age":4
+	},
+	{
+		"title":"SC Johnson",
+		"tagline":"Ziploc Promotion",
+		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
+		"tags":[ "facebook", "jquery", "code" ],
+		"age":4
+	},
+	{
+		"title":"SC Johnson",
+		"tagline":"Touchscreen Application",
+		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
+		"tags":[ "data", "facebook", "jquery", "leader" ],
+		"age":4
+	},
+	{
+		"title":"Unilever",
+		"tagline":"Touchscreen Application",
+		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
+		"tags":[ "flash", "facebook", "data", "mobile", "leader" ],
+		"age":4
+	},
+	{
+		"title":"Ingenuity Incorporated",
+		"tagline":"Touchscreen Application",
+		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
+		"tags":[ "flash", "site", "code" ],
+		"age":4
+	}
+]
