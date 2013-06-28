@@ -5,7 +5,8 @@
 		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
 		"vimeoid":"68639813",
 		"tags":[ "flash", "air", "leader", "interactive" ],
-		"age":4
+		"age":4,
+		"detail":"amfam1.json"
 	},
 	{
 		"title":"Elecrolux AG",
@@ -13,7 +14,8 @@
 		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
 		"vimeoid":"68874366",
 		"tags":[ "enterprise", "interactive", "leader", "concept" ],
-		"age":4
+		"age":4,
+		"detail":"elux.json"
 	},
 	{
 		"title":"Pentair Ltd.",
@@ -21,34 +23,39 @@
 		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
 		"vimeoid":"68639818",
 		"tags":[ "enterprise", "leader" ],
-		"age":4
+		"age":4,
+		"detail":"pentair.json"
 	},
 	{
 		"title":"SC Johnson",
 		"tagline":"Ziploc Promotion",
 		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
 		"tags":[ "facebook", "jquery", "code" ],
-		"age":4
+		"age":4,
+		"detail":"ziploc1.json"
 	},
 	{
 		"title":"SC Johnson",
 		"tagline":"Touchscreen Application",
 		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
 		"tags":[ "data", "facebook", "jquery", "leader" ],
-		"age":4
+		"age":4,
+		"detail":"amfam1.json"
 	},
 	{
 		"title":"Unilever",
 		"tagline":"Touchscreen Application",
 		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
 		"tags":[ "flash", "facebook", "data", "mobile", "leader" ],
-		"age":4
+		"age":4,
+		"detail":"amfam1.json"
 	},
 	{
 		"title":"Ingenuity Incorporated",
 		"tagline":"Touchscreen Application",
 		"description":"AmFam wanted a touchscreen app in their flagship storefront project in Madison, WI. This is what happened.",
 		"tags":[ "flash", "site", "code" ],
-		"age":4
+		"age":4,
+		"detail":"amfam1.json"
 	}
 ]

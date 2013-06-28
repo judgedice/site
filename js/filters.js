@@ -22,4 +22,21 @@ angular.module('judgediceFilters', []).filter('tagurl', function() {
   	
     return url;
   };
+}).filter( 'tagTooltip', function() {
+  return function(input) {
+    var tip = "";
+    if( input == "flash") tip = "Flash Based Project";
+    if( input == "code") tip = "Hands on Coding";
+    if( input == "data") tip = "Data Driven Application";
+    if( input == "enterprise") tip = "Enterprise Class Project";
+    if( input == "facebook") tip = "Facebook Application";
+    if( input == "game") tip = "Game Development";
+    if( input == "interactive") tip = "Interactive Project";
+    if( input == "leader") tip = "Project Leader";
+    if( input == "mobile") tip = "Mobile Platform Delivery";
+    if( input == "air") tip = "Adobe AIR Platform";
+    if( input == "site") tip = "Web Site";
+    if( input == "jquery") tip = "JQuery in Use";
+    return tip;
+  }
 });

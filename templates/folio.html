@@ -1,18 +1,18 @@
 <div>
 
 <div class="filter_list">
-	<a href="#"><img ng-src="{{'flash' | tagurl }}" alt="Flash Development" /></a>
-	<a href="#"><img ng-src="{{'code' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'data' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'enterprise' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'leader' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'air' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'jquery' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'facebook' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'game' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'interactive' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'mobile' | tagurl }}" /></a>
-	<a href="#"><img ng-src="{{'site' | tagurl }}" /></a>
+	<img ng-src="{{'flash' | tagurl }}" alt="Flash Development" />
+	<img ng-src="{{'code' | tagurl }}" />
+	<img ng-src="{{'data' | tagurl }}" />
+	<img ng-src="{{'enterprise' | tagurl }}" />
+	<img ng-src="{{'leader' | tagurl }}" />
+	<img ng-src="{{'air' | tagurl }}" />
+	<img ng-src="{{'jquery' | tagurl }}" />
+	<img ng-src="{{'facebook' | tagurl }}" />
+	<img ng-src="{{'game' | tagurl }}" />
+	<img ng-src="{{'interactive' | tagurl }}" />
+	<img ng-src="{{'mobile' | tagurl }}" />
+	<img ng-src="{{'site' | tagurl }}" />
 </div>
 
 
@@ -22,7 +22,7 @@
 		<h4>{{project.title}}</h4>
 		<h5>{{project.tagline}}</h5>
 		<p>{{project.description}}</p>
-		<div class="tags" ><img ng-repeat="tag in project.tags" ng-src="{{tag | tagurl}}" /></div>
+		<div class="tags" ><img tooltip="{{ tag | tagTooltip }}" ng-repeat="tag in project.tags" ng-src="{{tag | tagurl}}"  /></div>
 
 
 		<div ng-if="project.vimeoid"  ng-controller="modalControl"><!-- this is not shown if no vimeo id is present in data -->
