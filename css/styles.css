@@ -5,7 +5,7 @@ body
 {
 	
 	font-family: PT serif;
-	margin-left: 10px;
+	margin: 0;
 	background: #f4f4f4 url('../images/bg.jpg') no-repeat left top;
 }
 
@@ -68,11 +68,45 @@ h5 {
 	width: 100%;
 	height: 75px;
 	background-color: #333;
-	color: #EEE;
-	padding: 15px 0 0 35px;
+	color: #888;
+	text-transform: uppercase;
+	font-family: ayumi_lightregular;
+}
 
+#footer .right {
+	width: 300px;
+	
+}
+
+#footer .right p {
+	float: left;
+	margin: 27px 20px 0 0;
+}
+
+#footer .right img {
+	display: block;
+	margin: -20px 0 25px 0;
+}
+
+#footer .right img+img {
+	margin-bottom: 0px;
+	margin-left: 10px;
 
 }
+
+#footer .left {
+	margin: 27px 0 0 36px;
+
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 
 .project {
 	margin: 55px 0 0 0;
@@ -85,7 +119,7 @@ h5 {
 .project h4 {
 	font-size: 2.5em;
 	text-transform: uppercase;
-	font-family: "ayumi_lightregular";
+	font-family: ayumi_lightregular;
 }
 
 .project h5 {
